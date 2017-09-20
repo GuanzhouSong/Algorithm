@@ -48,19 +48,24 @@ public class HeapSort {
     Scanner scan = new Scanner(System.in);
     System.out.println("Heap Sort Test\n");
     int n, i;
-        /* Accept number of elements */
+
+    /* Accept number of elements */
     System.out.println("Enter number of integer elements");
     n = scan.nextInt();
-        /* Make array of n elements */
+
+    /* Make array of n elements */
     int arr[] = new int[n];
-        /* Accept elements */
+
+    /* Accept elements */
     System.out.println("\nEnter " + n + " integer elements");
     for (i = 0; i < n; i++) {
       arr[i] = scan.nextInt();
     }
-        /* Call method sort */
+
+    /* Call method sort */
     sort(arr);
-        /* Print sorted Array */
+
+    /* Print sorted Array */
     System.out.println("\nElements after sorting ");
     for (i = 0; i < n; i++) {
       System.out.print(arr[i] + " ");
